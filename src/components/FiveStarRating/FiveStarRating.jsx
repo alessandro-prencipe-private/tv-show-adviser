@@ -16,5 +16,5 @@ export function FiveStarRating({ rating }) {
     starList.push(<StarEmpty key={"star-empty" + i} />)
   }
 
-  return <div>{starList} </div>
+  return <div>{starList}</div>
 }
